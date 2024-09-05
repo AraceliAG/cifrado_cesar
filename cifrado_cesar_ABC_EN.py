@@ -10,7 +10,7 @@ abed = abecedario[3:] + abecedario[:3]  # AQUI SE PUEDE DESPLAZAR A TUS NECESIDA
 
 nuevoAbecedario = dict(zip(abed, abecedario))  # DICCIONARIO CESAR
 
-print(nuevoAbecedario)
+#print(nuevoAbecedario)
 palabra = input("Ingresa palabra: ").lower()  # CONVERSION A MINUSCULAS
 
 letras = list(palabra)  # SEPARAR POR LETRA
